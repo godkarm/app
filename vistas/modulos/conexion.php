@@ -6,7 +6,7 @@ class conexion{
 $DB_HOST="localhost";
 $DB_NAME="inventario_db";
 $DB_USER="root";
-$DB_PASS="";
+$DB_PASS="123456";
 
 // Intenta establecer la conexión con la base de datos
 try {

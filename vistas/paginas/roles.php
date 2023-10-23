@@ -76,7 +76,7 @@
     <div class="modal fade" id="modal-lg">
         <div class="modal-dialog modal-lg">
           <div class="modal-content">
-            <div class="modal-header">
+            <div class="modal-header" style="background: #28a745; color:white">
               <h4 class="modal-title">Crear Rol</h4>
               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
