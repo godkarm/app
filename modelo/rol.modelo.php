@@ -1,9 +1,10 @@
 <?php
+
 require_once "conexion.php";
 
-    class mdlUsuarios{
+    class mdlRoles{
 
-        static public function dmlMostarUsuario($tabla){
+        static public function dmlMostarRoles($tabla){
 
             $stmt= conexion::conectar()->prepare("SELECT * FROM $tabla");
 

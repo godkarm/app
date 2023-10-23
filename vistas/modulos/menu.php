@@ -24,8 +24,7 @@
                with font-awesome or any other icon font library -->
           <li class="nav-item">
             <a href="#" class="nav-link">
-            <i class="fa fa-users" aria-hidden="true"></i>
-            
+            <i class="nav-icon fa fa-users" aria-hidden="true"></i>
               <p>
                 Mant. Usuarios
                 <i class="right fas fa-angle-left"></i>
@@ -34,13 +33,13 @@
             <ul class="nav nav-treeview">
               <li class="nav-item">
                 <a href="usuarios" class="nav-link">
-                <i class="fa fa-user" aria-hidden="true"></i>
+                <i class="nav-icon fa fa-user" aria-hidden="true"></i>
                   <p>Usuarios</p>
                 </a>
               </li>
               <li class="nav-item">
                 <a href="roles" class="nav-link">
-                <i class="fa fa-sitemap" aria-hidden="true"></i>
+                <i class="nav-icon fa fa-sitemap" aria-hidden="true"></i>
                   <p>Roles</p>
                 </a>
               </li>
@@ -48,7 +47,7 @@
           </li>
           <li class="nav-item">
             <a href="#" class="nav-link">
-              <i class="nav-icon fas fa-tachometer-alt"></i>
+            <i class="nav-icon fas fa-edit"></i>
               <p>
                 Mant. Producto
                 <i class="right fas fa-angle-left"></i>
@@ -57,13 +56,13 @@
             <ul class="nav nav-treeview">
               <li class="nav-item">
                 <a href="../../index3.html" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
+                <i class="nav-icon fa fa-qrcode" aria-hidden="true"></i>
                   <p>Producto</p>
                 </a>
               </li>
               <li class="nav-item">
                 <a href="../../index2.html" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
+                <i class="nav-icon fa fa-cogs" aria-hidden="true"></i>
                   <p>Categoria</p>
                 </a>
               </li>
@@ -80,19 +79,19 @@
             <ul class="nav nav-treeview">
               <li class="nav-item">
                 <a href="../../index3.html" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
+                <i class="nav-icon far fa-circle text-danger"></i>
                   <p>Ingresos</p>
                 </a>
               </li>
               <li class="nav-item">
                 <a href="../../index2.html" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
+                <i class="nav-icon far fa-circle text-info"></i>
                   <p>Salidas</p>
                 </a>
               </li>
               <li class="nav-item">
                 <a href="../../index2.html" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
+                <i class="nav-icon far fa-circle text-warning"></i>
                   <p>Traslados</p>
                 </a>
               </li>
@@ -100,14 +99,58 @@
           </li>
           <li class="nav-item">
             <a href="../widgets.html" class="nav-link">
-              <i class="nav-icon fas fa-th"></i>
+            <i class="nav-icon fas fa-handshake"></i>
               <p>
-                Reportes
-                <span class="right badge badge-danger">Nuevo</span>
+                  Proveedores
               </p>
             </a>
           </li>
-
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+            <i class="nav-icon fas fa-book"></i>
+              <p>
+                Reportes
+                <i class="right fas fa-angle-left"></i>
+              </p>
+            </a>
+            <ul class="nav nav-treeview">
+              <li class="nav-item">
+                <a href="stock" class="nav-link">
+                <i class="nav-icon fas fa-bars"></i>
+                  <p>Stock General</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="stockminimos" class="nav-link">
+                <i class="nav-icon fa fa-exclamation-triangle" aria-hidden="true"></i>
+                  <p>Stock Minimos</p>
+                </a>
+              </li>
+             </ul>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+            <i class="nav-icon fas fa-table"></i>
+              <p>
+                Configuracion
+                <i class="right fas fa-angle-left"></i>
+              </p>
+            </a>
+            <ul class="nav nav-treeview">
+              <li class="nav-item">
+                <a href="stock" class="nav-link">
+                <i class="nav-icon fa fa-sliders" aria-hidden="true"></i>
+                  <p>Stock General</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="stockminimos" class="nav-link">
+                <i class="nav-icon fa fa-exclamation-triangle" aria-hidden="true"></i>
+                  <p>Stock Minimos</p>
+                </a>
+              </li>
+             </ul>
+          </li>
         </ul>
       </nav>
       <!-- /.sidebar-menu -->

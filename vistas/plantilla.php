@@ -14,7 +14,7 @@
   <link rel="stylesheet" href="vistas/recursos/plugins/datatables-responsive/css/responsive.bootstrap4.min.css">
   <link rel="stylesheet" href="vistas/recursos/plugins/datatables-buttons/css/buttons.bootstrap4.min.css">
   <!-- Theme style -->
-  <link rel="stylesheet" href="vistas/recursos/dist/css/adminlte.min.css">
+  <link rel="stylesheet" href="vistas/recursos/dist/css/adminlte.css">
 
 </head>
 <body class="hold-transition sidebar-mini">

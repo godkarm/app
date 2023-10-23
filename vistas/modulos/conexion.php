@@ -1,12 +1,12 @@
 <?php
 class conexion{
-    static function conectar(){
+    public static function conectar(){
 
 // Configuración de la base de datos
 $DB_HOST="localhost";
 $DB_NAME="inventario_db";
 $DB_USER="root";
-$DB_PASS="passw0rd";
+$DB_PASS="";
 
 // Intenta establecer la conexión con la base de datos
 try {
