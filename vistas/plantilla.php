@@ -30,25 +30,25 @@
 
   <!-- Content Wrapper. Contains page content -->
   <div class="content-wrapper">
-    <!-- Content Header (Page header) -->
-<?php 
+          <!-- Content Header (Page header) -->
+      <?php 
 
-if(isset($_GET["pagina"])){
+      if(isset($_GET["pagina"])){
 
-      if($_GET["pagina"]=="usuarios"||
-        $_GET["pagina"]=="roles"){
-        include "paginas/".$_GET["pagina"].".php";
+            if($_GET["pagina"]=="usuarios"||
+              $_GET["pagina"]=="roles"){
+              include "paginas/".$_GET["pagina"].".php";
+            }
+
       }
 
-}
 
 
+      ?>
 
-?>
 
-
-    <!-- /.content -->
-  </div>
+          <!-- /.content -->
+    </div>
   <!-- /.content-wrapper -->
 
 <?php include "modulos/footer.php"?>
@@ -83,37 +83,34 @@ if(isset($_GET["pagina"])){
 <!-- AdminLTE for demo purposes -->
 <!-- <script src="vistas/recursos/dist/js/demo.js"></script> -->
 <!-- Page specific script -->
-<script>
-  $(function () {
-    $("#example1").DataTable({
+      <script>
+          $(function () {
+            $("#example1").DataTable({
 
-   
-      "language": {
-        url: '//cdn.datatables.net/plug-ins/1.13.4/i18n/es-ES.json',},
-    
-        dom: 'Bfrtip',
-        buttons: [
-            'copy', 'csv', 'excel', 'pdf', 'print', 'colvis'
-        ],
-      "responsive": true, "lengthChange": false, "autoWidth": false,
-      
-   
-      
-    }).buttons().container().appendTo('#example1_wrapper .col-md-6:eq(0)');
-    
-    
-    $('#example2').DataTable({
-      "paging": true,
-      "lengthChange": false,
-      "searching": false,
-      "ordering": true,
-      "info": true,
-      "autoWidth": false,
-      "responsive": true,
-      
-    });
-    
-  });
-</script>
+
+              "language": {
+                url: '//cdn.datatables.net/plug-ins/1.13.4/i18n/es-ES.json',},
+
+                dom: 'Bfrtip',
+                buttons: [
+                    'copy', 'csv', 'excel', 'pdf', 'print', 'colvis'
+                ],
+              "responsive": true, "lengthChange": false, "autoWidth": false,
+              "lengthMenu": [4,8,12],
+            }).buttons().container().appendTo('#example1_wrapper .col-md-6:eq(0)');
+
+            $('#example2').DataTable({
+              "paging": true,
+              "lengthChange": false,
+              "searching": false,
+              "ordering": true,
+              "info": true,
+              "autoWidth": false,
+              "responsive": true,
+
+            });
+
+          });
+      </script>
 </body>
 </html>

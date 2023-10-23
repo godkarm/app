@@ -139,14 +139,14 @@
             <ul class="nav nav-treeview">
               <li class="nav-item">
                 <a href="stock" class="nav-link">
-                <i class="nav-icon fa fa-sliders" aria-hidden="true"></i>
-                  <p>Stock General</p>
+                <i class="nav-icon fa fa-tasks" aria-hidden="true"></i>
+                  <p>Informacion Sistema</p>
                 </a>
               </li>
               <li class="nav-item">
                 <a href="stockminimos" class="nav-link">
-                <i class="nav-icon fa fa-exclamation-triangle" aria-hidden="true"></i>
-                  <p>Stock Minimos</p>
+                <i class="nav-icon fa fa-university" aria-hidden="true"></i>
+                  <p>Datos Empresa</p>
                 </a>
               </li>
              </ul>
